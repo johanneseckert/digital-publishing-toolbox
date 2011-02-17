@@ -21,3 +21,8 @@ Contents:
 * iPad GUI Preview Template
 	This InDesign Template file will generate an InDesign document to simulate the look of your publication on an actual iPad.
 
+
+OVERALL CHANGELOG
+
+110217
+Added iPad GUI Template (Version2)

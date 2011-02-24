@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <!--
-	HTML5-1file-framework for use in Digital Publishing Suite from Adobe (Tested with drop8)
-	v0.1-110112
+	HTML5-1file-framework for use in Digital Publishing Suite from Adobe
+	v0.2-110224 (Tested with drop9)
 	http://digitalpublishing.tumblr.com
 -->
-<html lang="en">
+<html laneg="en">
 <head>
-<!-- title not visible on the iPad unless viewed with a browser / popup -->
+<!-- title not visible in the viewer unless viewed with a browser / popup -->
 <title>HTML5 Framework for DPS</title>
 	<meta charset="utf-8" />
 
-	<!-- enable PinchZoom: use "Scale Content to Fit" in InDesign and uncomment following meta tag -->
-	<!--
-	<meta name="viewport" content="initial-scale=1.0, maximum-scale=4.0"/> 
+	<!-- 
+		meta viewport tag
+		this tag controls the rendering of the html on the devices. it might be handled differntly 
+		between iOS/Android, so be carefull. this is a complete example tag. change for your needs or omit completly.
+
+		-Pagination of HTML stacks: omit completly or do not use user-scalable and target-densitydpi
+		-PinchZoom: use "Scale Content to Fit" in InDesign and use maximum-scale greater than 1.0, do not use user-scalable=no
 	-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"/> 
 
 	<!-- your document css -->
 	<style type="text/css">
-	/* some basic css reset */
+	/* basic css reset */
 	body {
 		margin: 0;
 		padding: 0;
-		/* make WebOverlay transparent with InDesign setting "Use Transparent Background" */
-		/* and using semi transparent background: uncomment following lines */
+		/* make WebOverlay transparent in InDesign: "Use Transparent Background" */
+		/* use following line for semi-transparent-background (fourth value is alpha value) */
 		/* background: rgba(50,150,250,0.5); */
 	}
 
-	/* your styles next */
+	/* your css styles here */
 	
 	</style>
 </head>

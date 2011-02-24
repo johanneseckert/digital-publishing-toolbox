@@ -20,6 +20,8 @@ How to Download: You can download the whole toolbox with all it's templates by j
 Contents:
 * iPad GUI Preview Template
 	This InDesign Template file will generate an InDesign document to simulate the look of your publication on an actual iPad.
+* Single File HTML5 framework
+	This is a basic html5 setup for weboverlays and HTML stacks to be used as a startup for HTML content in folios
 
 
 OVERALL CHANGELOG

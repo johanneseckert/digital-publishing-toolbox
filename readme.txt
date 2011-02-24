@@ -26,5 +26,7 @@ Contents:
 
 OVERALL CHANGELOG
 
+110224
+Added the single file HTML5 framework (version.01)
 110217
 Added iPad GUI Template (Version2)
